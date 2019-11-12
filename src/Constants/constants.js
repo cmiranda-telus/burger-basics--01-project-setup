@@ -1,0 +1,27 @@
+export const burgerBuilderConstants = {
+  ADD_SALAD: "ADD_SALAD",
+  ADD_BACON: "ADD_BACON",
+  ADD_CHEESE: "ADD_CHEESE",
+  ADD_MEAT: "ADD_MEAT",
+  SUBTRAC_SALAD: "SUBTRAC_SALAD",
+  SUBTRAC_BACON: "SUBTRAC_BACON",
+  SUBTRAC_CHEESE: "SUBTRAC_CHEESE",
+  SUBTRAC_MEAT: "SUBTRAC_MEAT",
+  DISPLAY_ORDER: "DISPLAY_ORDER",
+  CANCEL_ORDER: "CANCEL_ORDER",
+  CLOSE_BACKDROP: "CLOSE_BACKDROP",
+  GET_INGREDIENTS: "GET_INGREDIENTS",
+  SET_INGREDIENTS: "SET_INGREDIENTS",
+  ERROR: "ERROR"
+};
+
+export const serviceConstants = {
+  URL: "https://burger-builder-bff.firebaseio.com"
+};
+
+export const sideDrawerConstants = { SIDEDRAWER_DISPLAY: "SIDEDRAWER_DISPLAY" };
+
+export const orderConstanst = {
+  ADD_ORDER: "ADD_ORDER",
+  RETURN_HOME: "RETURN_HOME"
+};
